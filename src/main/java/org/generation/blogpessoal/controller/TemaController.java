@@ -1,8 +1,8 @@
 package org.generation.blogpessoal.controller;
 
-import java.util.List;
 
-import org.generation.blogpessoal.model.Postagem;
+
+import java.util.List;
 import org.generation.blogpessoal.model.Tema;
 import org.generation.blogpessoal.repository.TemaRepository;
 import org.springframework.beans.factory.annotation.Autowired;

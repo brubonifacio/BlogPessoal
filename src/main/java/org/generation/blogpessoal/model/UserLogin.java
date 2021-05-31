@@ -9,6 +9,10 @@ private String nome;
 	private String senha;
 	
 	private String token;
+	
+	private String foto;
+	
+	private String tipo;
 
 	
 	public String getNome() {
@@ -42,4 +46,21 @@ private String nome;
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
+
+	public String getFoto() {
+		return foto;
+	}
+
+	public void setFoto(String foto) {
+		this.foto = foto;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+	
 }

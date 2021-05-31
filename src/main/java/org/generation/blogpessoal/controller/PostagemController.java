@@ -2,9 +2,6 @@ package org.generation.blogpessoal.controller;
 
 import java.util.List;
 
-import javax.websocket.server.PathParam;
-
-import org.apache.catalina.startup.ClassLoaderFactory.Repository;
 import org.generation.blogpessoal.model.Postagem;
 import org.generation.blogpessoal.repository.PostagemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
